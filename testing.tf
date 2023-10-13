@@ -1,5 +1,5 @@
 variable "name"{}
 
 output "name" {
-  value = var.name
+  value = "Name :${var.name}"
 }
